@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <!-- <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no"> -->
+    <title>登录</title>
+    <!-- 引入重置样式表 -->
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <!-- 引入当前页面的样式表 -->
+    <link rel="stylesheet" href="../static/css/login.css">
+    <!-- 引入字体库 -->
+    <link rel="stylesheet" href="../static/fontawesome/css/all.min.css">
+    <script type="text/javascript" src="../static/js/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="../static/js/login.js"></script>
+</head>
+<body>
+    <div class="title">皖西学院教学信息评价系统</div>
+    <div class="photo">
+        <img src="../static/img/sb2.jpg">
+    </div>
+    <div class="login">
+        <div class="list">
+            <form action="./index_stu.html">
+                <span>用户名：</span>
+                <input type="text" name="username" placeholder="用户名（学号）" class="login" id="username">
+                <br>
+                <span>密码：</span>
+                <input type="password" name="password" placeholder="密码（身份证后六位[X大写]）" class="login" id="password">
+                <br>
+                <div class="check_select">
+                    <div class="check_box">
+                        <input type="checkbox" name="remember" value="true" class="remember"><em class="em_remember">记住我</em>
+                    </div>
+                    <div class="selected">
+                        <select class="slected_op">
+                            <option>选择角色...</option>
+                            <option>学生</option>
+                            <option>教师</option>
+                            <option>督导组</option>
+                            <option>教务处</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" id="sub_btn">登录</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+            <li>版权所有&nbsp;&copy;&nbsp;皖西学院</li>
+            <li>地址：安徽省六安市云露桥西月亮岛</li>
+            <li>邮编：237012</li>
+        </ul>
+    </div>
+</body>
+</html>
