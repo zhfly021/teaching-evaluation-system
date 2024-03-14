@@ -1,2 +1,1 @@
-# Teaching-evaluation-system-UI
-Teaching evaluation system UI
+# Documentation for the project is being archived and will be released soon.
